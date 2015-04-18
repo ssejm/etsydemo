@@ -35,6 +35,10 @@ gem "paperclip-dropbox", ">= 1.1.7"
 #Added Figaro
 gem "figaro"
 
+#Added devise
+gem 'devise'
+
+
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
