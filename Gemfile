@@ -38,6 +38,8 @@ gem "figaro"
 #Added devise
 gem 'devise'
 
+#Added Stripe
+gem 'stripe'
 
 group :production do
 	gem 'pg'
